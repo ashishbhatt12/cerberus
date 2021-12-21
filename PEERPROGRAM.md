@@ -2,6 +2,8 @@
 
 Detail explaination of peer programming excerise with @dsvellal held on 20th December, 2021. Task was given to enable static code analysis on open source project - [Cerberus](https://github.com/philips-software/cerberus)
 
+Repository [ashishbhatt12/cerberus](https://github.com/ashishbhatt12/cerberus) was forkfed from original repository. Please refer branch [ashish/feature/sonar](https://github.com/ashishbhatt12/cerberus/tree/ashish/feature%2Fsonar) for latest changes.
+
 ## What tool was selected? Why?
 
 [SonarQube](https://www.sonarqube.org/) as static code analysis platform was selected to perform static code analysis.
