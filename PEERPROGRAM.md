@@ -51,6 +51,15 @@ jacocoTestReport {
 }
 ```
 
+To cofigure soar scanner to talk to SonarQube below properties are added to `~/.gradle/gradle.properties` file at local machine.
+```
+# gradle.properties
+systemProp.sonar.host.url=http://localhost:9000
+systemProp.sonar.login=<Access token>
+```
+
+
+
 ## How code is scaned and configured in SonarQube?
 
 Script [scan-code.sh](scan-code.sh) created to run gradle command. Below command used in script to execute build, test and perform sonar scan. 
